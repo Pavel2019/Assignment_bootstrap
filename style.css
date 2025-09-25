@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav {
+    font-weight: 500;
+    font-size: 16px;
+
+
+}
+
+.navbar {
+    padding-bottom: 10px;
+}
+
+.brandlogo {
+    width: 200px;
+    height: auto;
+}
+
+.carousel-item h5 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.sliderbtn {
+    background-color: white;
+    color: blue;
+    border: 0px;
+    font-weight: 700;
+    padding: 10px 20px 10px 20px;
+}
+
+.carousel-caption {
+    bottom: 5.0rem;
+}
+
+.thirdcard {
+    margin-top: -100px;
+}
+
+.cardbtn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: #F496D1;
+
+}
+
+
+/* Responsive Styles */
+
+
+/* Navbar logo */
+.brandlogo {
+  max-width: 120px;
+  height: auto;
+}
+
+/* Carousel caption adjustment */
+.carousel-caption h5 {
+    font-size: 24px;
+}
+.carousel-caption p {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    bottom: 15%;
+  }
+  .carousel-caption h5 {
+    font-size: 1.2rem;
+  }
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+  .carousel-caption button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
+
+/* Every moment section */
+@media (max-width: 992px) {
+  .bd-highlight {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .bd-highlight img {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+}
+
+/* Package cards */
+.card {
+  width: 100% !important;
+  max-width: 292px;
+  margin: auto;
+}
+@media (max-width: 992px) {
+  .row .col {
+    margin-bottom: 30px;
+  }
+  .thirdcard {
+    margin-top: 30px;
+  }
+}
+
+/* Clients section */
+@media (max-width: 992px) {
+  .row .col {
+    display: flex;
+    justify-content: center;
+  }
+  .row .col .shadow {
+    width: 100% !important;
+    max-width: 360px;
+  }
+}
+
+/* FAQ section */
+@media (max-width: 992px) {
+  .accordion {
+    margin-bottom: 30px;
+  }
+  .accordion + .col img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+footer img {
+  max-width: 150px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  footer .text-md-end {
+    text-align: center !important;
+    padding: 0;
+  }
+  footer .d-inline-block {
+    padding: 0 !important;
+  }
+}
